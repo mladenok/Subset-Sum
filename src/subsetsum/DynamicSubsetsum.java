@@ -46,8 +46,8 @@ public class DynamicSubsetsum {
         int n = S.length;
         
         if(isSubset(S, n, t) == true)
-            System.out.println("Found");
+            System.out.println("Found!");
         else
-            System.out.println("Not Found");
+            System.out.println("Not Found!");
     }
 }
