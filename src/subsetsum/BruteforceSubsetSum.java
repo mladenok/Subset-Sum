@@ -36,13 +36,13 @@ public class BruteforceSubsetSum {
     
     
     public static void main(String[] args) {
-        int S[] = {7,2,14,18,123,23,53,21,54,12,64,213,53453,12};
-        int t = 2123;
+        int S[] = {7,4,23,12,5,2,6,12,44};
+        int t = 20;
         int n = S.length;
         if(isSubset(S, n, t) == true)
-            System.out.println("True!");
+            System.out.println("Found!");
         else
-            System.out.println("False!");
+            System.out.println("Not found!");
     }
     
 }
